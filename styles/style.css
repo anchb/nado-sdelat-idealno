@@ -42,15 +42,6 @@ img {
 }
 
 
-
-.main-container {
- position: static;
- display: flex;
- justify-content: center;
- background-color: rgba(255,255,255, 0.3);
-}
-
-
 .main-container-video {
   position: absolute;
   width: 100%;
@@ -92,10 +83,9 @@ img {
   position: absolute;
   right: 22px;
   bottom: 63%;
-  content: "*";
   content: 'На самом деле нет.\AВажнее &mdash; научиться ошибаться.';
   border: 2px solid #000;
-  border-bottom: 16px solid #000;
+  border-bottom: 16px;
   border-radius: 20px;
   white-space: pre;
   font-size: 35px;
